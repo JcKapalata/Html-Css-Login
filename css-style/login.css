@@ -1,0 +1,133 @@
+/* initialisation margin, paddin a 0 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body{
+    background: #d3c3a4c4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+}
+
+.se-connecte{
+    height: 60vh;
+    border-radius: 5px;
+    margin: auto;
+    background: wheat;
+    box-shadow: 0px 0px 20px 0px #3b3935;
+}
+
+.se-connecte h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2px auto;
+    padding: 2px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 10px #000000e6;
+}
+
+/* Formulaire */
+.identification{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0px;
+    padding: 0 4px;
+    justify-content: space-evenly;
+}
+
+.identification input[type = "email"], input[type = "password"]{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: 20px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.identification input[type ="submit"]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    width: 50%;
+    margin: 0 auto;
+    color: whitesmoke;
+    background: #0000006c;
+    border : none;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.identification input[type = "submit"]:hover{
+    background:antiquewhite;
+    color: black;
+    border: 2px solid #0000006c;
+}
+
+/* Cree un compte */
+.cree-compte{
+    height: 120px;
+    padding: 4px;
+    margin: 4px;
+}
+/* message texte */
+.cree-compte #msg-texte p {
+    font-size: 1rem;
+    width: 90%;
+    margin: 0px auto;
+ }
+
+ /* div - Lien de redirection creation compte */
+.cree-compte #lien-cpt {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cree-compte #lien-cpt a{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 4px;
+    font-weight: bold;
+    background: #0000006c;
+    color: whitesmoke;
+    border-radius: 5px;  
+    transition: 1s; 
+     
+}
+.cree-compte #lien-cpt a:hover{
+    background:antiquewhite;
+    color: black;
+    border: 2px solid #0000006c;
+}
+
+/* div - lien redirection condition et confidentialite */
+.cree-compte #condition{
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.cree-compte #condition a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 2s;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+}
+.cree-compte #condition a:hover{
+    background:antiquewhite;
+    font-weight: bold;
+    color: black;
+    border: 1px solid #0000006c;
+}
