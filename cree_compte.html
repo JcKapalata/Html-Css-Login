@@ -7,6 +7,61 @@
     <title>Cree compte</title>
 </head>
 <body>
-    
+    <main>
+        <section class="cree-compte">
+            <!-- titre -->
+             <h2>Cree compte</h2>
+
+            <!-- enregistrement identite utlisateur-->
+            <form class="enregistrement">
+                <!-- Pour Nom -->
+                <div id="nom">
+                    <label>Nom</label>
+                    <input type="text" placeholder="Votre nom" required>
+                </div>
+                <!-- Pour Prenom -->
+                <div id="prenom">
+                    <label>Prenom</label>
+                    <input type="text" placeholder="Votre prenom" required>
+                </div>
+                <!-- Pour email -->
+                <div id="email">
+                    <label>e-mail</label>
+                    <input type="email" placeholder="Votre email" required>
+                </div>
+                <!-- Pour cree un password -->
+                <div id="cree-pwd">
+                    <label>Creer mot de passe </label>
+                    <input type="password" placeholder="Creer mot passe" required>
+                </div>
+                <!-- Pour Confirm password -->
+                <div id="confirm-pwd">
+                    <label>Confirme mot de passe</label>
+                    <input type="password" placeholder="Confirme le mot passe" required>
+                </div>
+                <!-- Pour Valider -->
+                <div id="soumettre">
+                    <input type="submit" value="S'inscrire">
+                </div>
+            </form>
+
+            <!-- Redirection a la page Login -->
+            <div class="login">
+                <div id="msg-texte">
+                    <p>Vous avez deja un compte cliquer ici :</p>
+                </div>
+
+                <div id="lien-Seconnecte">
+                    <a href="login.html">Se connecter</a>
+                </div>
+            </div>
+
+            <!-- lien redirection condition et confidentialite -->
+             <div class="condition">
+                <a href="#">Confidentialité</a>
+                <a href="#">conditions générales</a>
+             </div>
+        </section>
+    </main>
 </body>
 </html>

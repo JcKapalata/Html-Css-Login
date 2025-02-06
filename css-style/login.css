@@ -15,8 +15,9 @@ main{
     display: flex;
 }
 
+/* Section Se connecter */
 .se-connecte{
-    height: 60vh;
+    min-height: 50vh;
     border-radius: 5px;
     margin: auto;
     background: wheat;
@@ -55,7 +56,7 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: bolder;
-    width: 50%;
+    width: 45%;
     margin: 0 auto;
     color: whitesmoke;
     background: #0000006c;
@@ -74,7 +75,7 @@ main{
 
 /* Cree un compte */
 .cree-compte{
-    height: 120px;
+    min-height: 50px;
     padding: 4px;
     margin: 4px;
 }
@@ -110,13 +111,13 @@ main{
 }
 
 /* div - lien redirection condition et confidentialite */
-.cree-compte #condition{
+.condition{
     height: 40px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-around;
 }
-.cree-compte #condition a{
+.condition a{
     font-size: 0.9rem;
     text-decoration: none;
     border-radius: 5px;
@@ -125,7 +126,7 @@ main{
     padding: 3px;
     font-weight: bold;
 }
-.cree-compte #condition a:hover{
+.condition a:hover{
     background:antiquewhite;
     font-weight: bold;
     color: black;

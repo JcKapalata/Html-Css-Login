@@ -7,3 +7,152 @@ body{
     background: #d3c3a4c4;
     font-family: 'Times New Roman', Times, serif;
 }
+
+main{
+    height: 100vh;
+    display: flex;
+}
+
+/* Section Cree compte */
+.cree-compte{
+    min-height: 60vh;
+    width: 400px;
+    border-radius: 5px;
+    margin: auto;
+    background: wheat;
+    box-shadow: 0px 0px 20px 0px #3b3935;
+}
+
+.cree-compte h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2px auto;
+    padding: 2px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 10px #000000e6;
+}
+
+/* Enregestriment identite utilisateur */
+.enregistrement{
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 4px;
+    margin: 5px 0;
+}
+
+.enregistrement #nom,
+.enregistrement #prenom,
+.enregistrement #email,
+.enregistrement #cree-pwd,
+.enregistrement #confirm-pwd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.enregistrement label{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: whitesmoke;
+    text-shadow: 1px 1px 10px #000000e6;
+}
+
+.enregistrement #nom input,
+.enregistrement #prenom input,
+.enregistrement #email input,
+.enregistrement #cree-pwd input,
+.enregistrement #confirm-pwd input{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    width: 60%;
+    padding: 2px;
+}
+
+.enregistrement #soumettre{
+    display: flex;
+    justify-content: right;
+    margin: 5px;
+}
+
+.enregistrement #soumettre input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0 4px;
+    color: whitesmoke;
+    background: #0000006c;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.enregistrement #soumettre input:hover{
+    background: antiquewhite;
+    color: black;
+    border: 2px solid #0000006c;
+}
+
+/* Redirection a Login */
+.login{
+    min-height: 50px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.login #msg-texte p{
+    font-size: 1rem;
+    padding: 2px;
+}
+
+.login #lien-Seconnecte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+
+.login #lien-Seconnecte a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 4px;
+    background: #0000006c;
+    color: whitesmoke;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.login #lien-Seconnecte a:hover{
+    background: antiquewhite;
+    color: black;
+    border: 2px solid #0000006c;
+}
+
+/* Lien rediretion condition et confidentialite */
+.condition{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.condition a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 2s;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+}
+.condition a:hover{
+    background:antiquewhite;
+    font-weight: bold;
+    color: black;
+    border: 1px solid #0000006c;
+}
