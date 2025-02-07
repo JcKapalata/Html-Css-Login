@@ -1,15 +1,4 @@
-/* initialisation margin, paddin a 0 */
-*{
-    margin: 0;
-    padding: 0;
-}
-
-/* body */
-body{
-    background: #d3c3a4c4;
-    font-family: 'Times New Roman', Times, serif;
-}
-
+/* Main */
 main{
     height: 100vh;
     display: flex;
@@ -55,7 +44,7 @@ main{
 .identification input[type ="submit"]{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    font-weight: bolder;
+    font-weight: bold;
     width: 45%;
     margin: 0 auto;
     color: whitesmoke;
@@ -70,7 +59,7 @@ main{
 .identification input[type = "submit"]:hover{
     background:antiquewhite;
     color: black;
-    border: 2px solid #0000006c;
+    border: 1.5px solid #0000006c;
 }
 
 /* Cree un compte */
@@ -107,7 +96,7 @@ main{
 .cree-compte #lien-cpt a:hover{
     background:antiquewhite;
     color: black;
-    border: 2px solid #0000006c;
+    border: 1.5px solid #0000006c;
 }
 
 /* div - lien redirection condition et confidentialite */

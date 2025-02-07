@@ -95,7 +95,7 @@ main{
 .enregistrement #soumettre input:hover{
     background: antiquewhite;
     color: black;
-    border: 2px solid #0000006c;
+    border: 1.5px solid #0000006c;
 }
 
 /* Redirection a Login */
@@ -131,7 +131,7 @@ main{
 .login #lien-Seconnecte a:hover{
     background: antiquewhite;
     color: black;
-    border: 2px solid #0000006c;
+    border: 1.5px solid #0000006c;
 }
 
 /* Lien rediretion condition et confidentialite */
